@@ -1,0 +1,933 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Yeon Sung';
+}
+
+.img-fluid{
+    width: 100px;
+    height: 70px;
+}
+/* .all{
+    background-color: black;
+}
+.navbar .navbar-nav ul li a{
+    color: aliceblue;
+} */
+.upperSection{
+    background-image: url("banner1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    width: 1265px;
+    height: 650px;
+}
+.works{
+    background-image: url("banner2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 1265px;
+    height: 650px;
+}
+/* .mynav .navbar .container-fluid .collapse form .d-flex a .btn1{
+    margin-right: 50px;
+    color: brown;
+    background-color: black;
+} */
+.collapse .form1 a{
+    text-align: center;
+    margin-right: 50px;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 2px solid rgb(1, 1, 1);
+    box-shadow: 4px 4px rgb(74, 74, 253);
+    border-radius: 6px;
+    text-decoration: none;
+}
+.collapse .form1 .btn1{
+    color: black;
+    box-shadow: 3px 2px blue;
+}
+.collapse .form1 .btn2{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: none;
+    text-decoration: none;
+}
+.collapse .form1 .btn2:hover{
+    background-color: gray;
+    color: aliceblue;
+    
+}
+.collapse .form1 a:hover{
+    box-shadow: none;
+}
+.upperSection{
+    text-align: center;
+}
+.upperSection a{
+    text-align: center;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid rgb(1, 1, 1);
+    box-shadow: 4px 4px rgb(74, 74, 253);
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+.mybtns{
+    padding-top: 400px;
+}
+.chatbtn{
+    padding-top: 30px;
+}
+.chatbtn h5{
+    color: azure;
+    padding: 10px;
+}
+.upperSection .btn1{
+    background-color: rgb(1, 255, 255);
+    color: black;
+    box-shadow: 3px 2px blue;
+}
+.upperSection .btn2{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: none;
+    text-decoration: none;
+}
+.upperSection .btn2:hover{
+    background-color: gray;
+    color: aliceblue;
+    
+}
+.upperSection a:hover{
+    box-shadow: none;
+}
+/* form a .btn1{
+    color: brown;
+    background-color: black;
+    padding: 5px;
+    border: 1px solid blue;
+} */
+#about{
+    text-align: center;
+}
+#about h3{
+    padding-top: 100px;
+}
+.navmy{
+    border: 2px solid black;
+}
+.nav2{
+    border: 2px solid blue;
+    
+}
+.divs{
+    display: flex;
+    z-index: 1;
+    margin-bottom: -50px;
+    text-align: center;
+    margin-left: 10px;
+}
+.firstdiv{
+    text-align: center;
+    background-color: gold;
+    box-shadow: 7px 7px orange;
+    padding: 15px;
+    width: 400px;
+    margin: 20px;
+}
+.seconddiv{
+    text-align: center;
+    width: 400px;
+    background-color: rgb(69, 132, 251);
+    box-shadow: 7px 7px blue;
+    padding: 15px;
+    margin: 20px;
+}
+.thirddiv{
+    text-align: center;
+    background-color: aquamarine;
+    box-shadow: 7px 7px blue;
+    width: 400px;
+    padding: 15px;
+    margin: 20px;
+}
+.protection{
+    background-color: black;
+    display: flex;
+    z-index: 0;
+}
+.protect1{
+    text-align: center;
+    width: 600px;
+    margin: 20px;
+    margin-top: 80px;
+    color: azure;
+}
+.protect2{
+    text-align: center;
+    width: 600px;
+    margin: 20px;
+    margin-top: 80px;
+    color: azure;
+}
+.protectimg{
+    width: 80px;
+    height: 70px;
+
+}
+.steps{
+    display: flex;
+    background-color: black;
+    color: azure;
+    padding-top: 50px;
+}
+.step1{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid orange;
+    box-shadow: 5px 5px orange;
+}
+.step2{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid rgb(30, 146, 255);
+    box-shadow: 5px 5px rgb(30, 146, 255);
+}
+.step3{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid red;
+    box-shadow: 5px 5px red;
+}
+.step4{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid rgb(30, 146, 255);
+    box-shadow: 5px 5px rgb(30, 146, 255);
+}
+.question{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+}
+.question .btn1{
+    text-align: center;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid rgb(1, 1, 1);
+    box-shadow: 4px 4px rgb(74, 74, 253);
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    box-shadow: 3px 2px blue;
+}
+.question .btn1:hover{
+    box-shadow: none;
+}
+.Faqs{
+    display: flex;
+}
+.Faqs .faq1,
+.Faqs .faq2{
+    width: 600px;
+    margin: 20px;
+    text-align: center;
+}
+.Faqs .faq1 .btn2{
+    text-align: center;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid rgb(1, 1, 1);
+    box-shadow: 4px 4px rgb(74, 74, 253);
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 10px;
+}
+.Faqs .faq1 .btn2{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: none;
+    text-decoration: none;
+}
+.Faqs .faq1 .btn2:hover{
+    background-color: gray;
+    color: aliceblue;
+    
+}
+.footer{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 50px;
+}
+
+.footbtn{
+    padding: 50px;
+    text-align: center;
+    /* display: flex; */
+}
+.footbtn .divbtn{
+    text-align: center;
+    width: 600px;
+}
+.footbtn .divbtn .btn1{
+    text-align: center;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid rgb(1, 1, 1);
+    box-shadow: 4px 4px rgb(74, 74, 253);
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    box-shadow: 3px 2px blue;
+}
+.footbtn .divbtn .btn1:hover{
+    box-shadow: none;
+}
+.footbtn .divbtn2 .btn2{
+    text-align: center;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid rgb(49, 145, 255);
+    box-shadow: 4px 4px rgb(74, 74, 253);
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.footbtn .divbtn2 .btn2:hover{
+    background-color: gray;
+    color: aliceblue;
+    
+}
+.radeemall{
+    background-color: darkgray;
+    height: 900px;
+}
+.inputbtn{
+    width: 300px;
+    border-radius: 15px;
+    background-color: rgba(103, 103, 103, 0.201);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(103, 103, 103, 0.201);
+    text-align: center;
+}
+.inputtext{
+    padding: 10px;
+    opacity: 0.7;
+}
+
+.radeemnav{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+}
+.radeemnav a{
+    text-decoration: none;
+    color: azure;
+}
+.Myradeem{
+    text-align: center;
+    margin: 100px;
+}
+.radeemForm{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    border-radius: 35px;
+    margin: auto;
+    padding: 20px;
+}
+.RadeemLogo{
+    width: 100px;
+    height: 70px;
+}
+.radeembtn{
+    text-align: center;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 4px 4px rgb(74, 74, 253);
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+
+.radeembtn:hover{
+    background-color: gray;
+    color: aliceblue;
+    
+}
+.divimg{
+    width: 330px;
+    height: 170px;
+}
+
+.code{
+    text-align: center;
+    margin: 100px;
+}
+.code h1{
+    font-weight: bolder;
+}
+.radeemcode{
+    background-color: rgb(2, 98, 176);
+    color: rgb(255, 255, 255);
+    width: 500px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px blue;
+}
+.radeemcode h3,
+.radeemcode h5{
+    font-weight: bolder;
+}
+@media screen and (min-width:2001px) and (max-width:5000px) {
+    .upperSection{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+        width: 3065px;
+        height: 750px;
+    }
+    .works{
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+        width: 2965px;
+        height: 1000px;
+    }
+    .mybtns{
+        padding-top: 450px;
+    }
+    .chatbtn{
+        padding-top: 50px;
+    }
+    .footbtn .divbtn{
+        text-align: center;
+        width: 300px;
+    }
+    .radeemall{
+        background-color: darkgray;
+        height: 1200px;
+    }
+    .divimg{
+        width: 180px;
+        height: 70px;
+    }
+    .firstdiv{
+        text-align: center;
+        background-color: gold;
+        box-shadow: 7px 7px orange;
+        padding: 15px;
+        width: 750px;
+        margin: 20px;
+    }
+    .seconddiv{
+        text-align: center;
+        width: 750px;
+        background-color: rgb(69, 132, 251);
+        box-shadow: 7px 7px blue;
+        padding: 15px;
+        margin: 20px;
+    }
+    .thirddiv{
+        text-align: center;
+        background-color: aquamarine;
+        box-shadow: 7px 7px blue;
+        width: 750px;
+        padding: 15px;
+        margin: 20px;
+    }
+    .footbtn .divbtn{
+        text-align: center;
+        width: 1500px;
+    }
+    .Faqs .faq1,
+    .Faqs .faq2{
+        width: 1200px;
+        margin: 20px;
+        text-align: center;
+    }
+    .protect1{
+        text-align: center;
+        width: 1200px;
+        margin: 20px;
+        margin-top: 80px;
+        color: azure;
+    }
+    .protect2{
+        text-align: center;
+        width: 1200px;
+        margin: 20px;
+        margin-top: 80px;
+        color: azure;
+    }
+}
+@media screen and (min-width:1401px) and (max-width:2000px) {
+    .upperSection{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+        width: 100%;
+        height: 750px;
+    }
+    .works{
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+        width: 1965px;
+        height: 1000px;
+    }
+    .divs{
+        text-align: center;
+        margin-left: 50px;
+    }
+    .mybtns{
+        padding-top: 450px;
+    }
+    .chatbtn{
+        padding-top: 50px;
+    }
+    .footbtn .divbtn{
+        text-align: center;
+        width: 300px;
+    }
+    .radeemall{
+        background-color: darkgray;
+        height: 1300px;
+    }
+    .divimg{
+        width: 180px;
+        height: 70px;
+    }
+    .firstdiv{
+        text-align: center;
+        background-color: gold;
+        box-shadow: 7px 7px orange;
+        padding: 15px;
+        width: 550px;
+        margin: 20px;
+    }
+    .seconddiv{
+        text-align: center;
+        width: 550px;
+        background-color: rgb(69, 132, 251);
+        box-shadow: 7px 7px blue;
+        padding: 15px;
+        margin: 20px;
+    }
+    .thirddiv{
+        text-align: center;
+        background-color: aquamarine;
+        box-shadow: 7px 7px blue;
+        width: 550px;
+        padding: 15px;
+        margin: 20px;
+    }
+    .footbtn .divbtn{
+        text-align: center;
+        width: 1100px;
+    }
+    .Faqs .faq1,
+    .Faqs .faq2{
+        width: 900px;
+        margin: 20px;
+        text-align: center;
+    }
+    .protect1{
+        text-align: center;
+        width: 900px;
+        margin: 20px;
+        margin-top: 80px;
+        color: azure;
+    }
+    .protect2{
+        text-align: center;
+        width: 900px;
+        margin: 20px;
+        margin-top: 80px;
+        color: azure;
+    }
+}
+
+
+@media screen and (min-width:901px) and (max-width:1400px) {
+    .upperSection{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+        width: 100%;
+        height: 450px;
+    }
+    .works{
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+        width: 770px;
+        height: 450px;
+    }
+    /* .mybtns{
+        padding-top: 250px;
+    }
+    .chatbtn{
+        padding-top: 50px;
+    }
+    .footbtn .divbtn{
+        text-align: center;
+        width: 300px;
+    }
+    .radeemall{
+        background-color: darkgray;
+        height: 1200px;
+    }
+    .divimg{
+        width: 180px;
+        height: 70px;
+    } */
+}
+
+
+
+
+@media screen and (min-width:700px) and (max-width:900px) {
+    .upperSection{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+        width: 770px;
+        height: 450px;
+    }
+    .works{
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+        width: 770px;
+        height: 450px;
+    }
+    .mybtns{
+        padding-top: 250px;
+    }
+    .chatbtn{
+        padding-top: 50px;
+    }
+    .footbtn .divbtn{
+        text-align: center;
+        width: 300px;
+    }
+    .radeemall{
+        background-color: darkgray;
+        height: 1300px;
+    }
+    .divimg{
+        width: 180px;
+        height: 70px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:370px) {
+    .upperSection{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+        width: 360px;
+        height: 250px;
+    }
+    .works{
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+        width: 359px;
+        height: 180px;
+    }
+    .mybtns{
+        padding-top: 150px;
+    }
+    .chatbtn{
+        padding-top: 80px;
+    }
+    .chatbtn h5{
+        color: rgb(0, 0, 0);
+        padding: 10px;
+    }
+    .footbtn .divbtn{
+        text-align: center;
+     
+    }
+    .divs{
+        display: block;
+        text-align: center;
+        /* z-index: 1; */
+        /* margin-bottom: -50px; */
+        margin-bottom: 50px;
+    }
+    .firstdiv{
+        text-align: center;
+        background-color: gold;
+        box-shadow: 7px 7px orange;
+        padding: 15px;
+        width: 300px;
+        margin: 20px;
+    }
+    .seconddiv{
+        text-align: center;
+        width: 300px;
+        background-color: rgb(69, 132, 251);
+        box-shadow: 7px 7px blue;
+        padding: 15px;
+        margin: 20px;
+    }
+    .thirddiv{
+        text-align: center;
+        background-color: aquamarine;
+        box-shadow: 7px 7px blue;
+        width: 300px;
+        padding: 15px;
+        margin: 20px;
+    }
+    .steps{
+        display: block;
+        background-color: black;
+        color: azure;
+        padding-top: 50px;
+    }
+    .Faqs{
+        display: flex;
+    }
+    .footbtn .divbtn{
+        text-align: center;
+        width: 150px;
+        margin-bottom: 50px;
+    }
+    .footbtn .divbtn .btn1{
+        width: 60px;
+    }
+    .footbtn .divbtn2 .btn2{
+        width: 60px;
+    }
+    .footbtn{
+        padding: 50px;
+        text-align: center;
+        display: block;
+    }
+    .protectimg{
+        width: 60px;
+        height: 40px;
+    
+    }
+    .protection{
+        background-color: black;
+        display: flex;
+    }
+    .radeemForm{
+        background-color: rgb(255, 255, 255);
+        width: 300px;
+        border-radius: 35px;
+        margin: auto;
+        padding: 20px;
+    }
+    .inputbtn{
+        width: 250px;
+        border-radius: 15px;
+        background-color: rgba(103, 103, 103, 0.201);
+        color: rgb(0, 0, 0);
+        border: 1px solid rgba(103, 103, 103, 0.201);
+        text-align: center;
+    }
+    .radeemall{
+        background-color: darkgray;
+        height: 1300px;
+    }
+    .radeemcode{
+        background-color: rgb(2, 98, 176);
+        color: rgb(255, 255, 255);
+        width: 300px;
+        margin: auto;
+        margin-top: 80px;
+        padding: 15px;
+        box-shadow: 5px 5px 5px blue;
+    }
+}
+@media screen and (min-width:371px) and (max-width:500px) {
+    .upperSection{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+        width: 400px;
+        height: 250px;
+    }
+    .works{
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+        width: 359px;
+        height: 180px;
+    }
+    .mybtns{
+        padding-top: 150px;
+    }
+    .chatbtn{
+        padding-top: 80px;
+    }
+    .chatbtn h5{
+        color: rgb(0, 0, 0);
+        padding: 10px;
+    }
+    .footbtn .divbtn{
+        text-align: center;
+     
+    }
+    .divs{
+        display: block;
+        /* z-index: 1; */
+        /* margin-bottom: -50px; */
+        margin-bottom: 50px;
+    }
+    .firstdiv{
+        text-align: center;
+        background-color: gold;
+        box-shadow: 7px 7px orange;
+        padding: 15px;
+        width: 300px;
+        margin: 20px;
+    }
+    .seconddiv{
+        text-align: center;
+        width: 300px;
+        background-color: rgb(69, 132, 251);
+        box-shadow: 7px 7px blue;
+        padding: 15px;
+        margin: 20px;
+    }
+    .thirddiv{
+        text-align: center;
+        background-color: aquamarine;
+        box-shadow: 7px 7px blue;
+        width: 300px;
+        padding: 15px;
+        margin: 20px;
+    }
+    .steps{
+        display: block;
+        background-color: black;
+        color: azure;
+        padding-top: 50px;
+    }
+    .Faqs{
+        display: flex;
+    }
+    .footbtn .divbtn{
+        text-align: center;
+        width: 150px;
+        margin-bottom: 50px;
+    }
+    .footbtn .divbtn .btn1{
+        width: 60px;
+    }
+    .footbtn .divbtn2 .btn2{
+        width: 60px;
+    }
+    .footbtn{
+        padding: 50px;
+        text-align: center;
+        display: block;
+    }
+    .protectimg{
+        width: 60px;
+        height: 40px;
+    
+    }
+    .protection{
+        background-color: black;
+        display: flex;
+    }
+    .radeemForm{
+        background-color: rgb(255, 255, 255);
+        width: 300px;
+        border-radius: 35px;
+        margin: auto;
+        padding: 20px;
+    }
+    .inputbtn{
+        width: 250px;
+        border-radius: 15px;
+        background-color: rgba(103, 103, 103, 0.201);
+        color: rgb(0, 0, 0);
+        border: 1px solid rgba(103, 103, 103, 0.201);
+        text-align: center;
+    }
+    .radeemall{
+        background-color: darkgray;
+        height: 900px;
+    }
+    .radeemcode{
+        background-color: rgb(2, 98, 176);
+        color: rgb(255, 255, 255);
+        width: 300px;
+        margin: auto;
+        margin-top: 80px;
+        padding: 15px;
+        box-shadow: 5px 5px 5px blue;
+    }
+}
+.recaptcha-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
